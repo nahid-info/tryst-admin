@@ -1,0 +1,14 @@
+@media (max-width: 900px) {
+  .header-container .menu-bar {
+    display: block;
+  }
+
+  .header-container ul li:nth-child(2),
+  .header-container ul li:nth-child(3) {
+    display: none;
+  }
+
+  .header-container ul {
+    padding: 0;
+  }
+}

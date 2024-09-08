@@ -1,0 +1,35 @@
+.all-users-table tr td,
+.all-users-table tr th {
+  border-bottom: 1px solid rgb(192, 155, 155);
+}
+
+.all-users-table tr {
+  transition: all 0.1s linear;
+}
+
+.all-users-table tbody tr:nth-child(even) {
+  background-color: rgb(241, 235, 227);
+}
+
+.all-users-table tbody tr:hover {
+  background-color: azure;
+}
+
+@media (max-width: 500px) {
+  .all-users-table th {
+    padding: 0 15px;
+    font-size: 0.8rem;
+  }
+
+  .all-users-table td {
+    font-size: 0.8rem;
+  }
+
+  .all-users-table tr td:nth-child(4) {
+    font-size: 1.3rem !important;
+  }
+
+  .all-users-table tr td:nth-child(1) {
+    padding: 10px 0;
+  }
+}

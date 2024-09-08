@@ -1,0 +1,37 @@
+.show-link-table tbody tr td {
+  border: 1px solid rgb(204, 166, 166);
+  padding-left: 10px;
+  text-align: center;
+}
+
+.show-link-table thead tr th {
+  text-align: center;
+}
+
+.show-link-table tbody tr td:nth-child(2) {
+  border-right: 1px solid lightblue;
+}
+
+.show-link-table tr td {
+  padding: 10px 10px;
+}
+
+.show-link-table tr td:nth-child(3) {
+  border: 1px solid lightblue;
+}
+
+@media (max-width: 650px) {
+
+  .show-link-table tr th,
+  .show-link-table tr td {
+    font-size: 0.8rem;
+    font-weight: normal;
+    padding: 0;
+  }
+
+  .show-link-table {
+    display: inline-block;
+    max-width: 280px !important;
+    overflow: scroll;
+  }
+}
